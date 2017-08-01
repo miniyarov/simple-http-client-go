@@ -1,6 +1,7 @@
 ### RUN:
 
-```PAYLOAD='[
+```
+PAYLOAD='[
   {
     "method": "GET",
     "url": "http://httpbin.org/delay/1",
@@ -19,4 +20,5 @@
     },
     "body": "nothing"
   }
-]' go run httpclient.go```
+]' go run httpclient.go
+```
